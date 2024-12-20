@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 dict = {'col1':[1, 11], 'col2':[2, 22], 'col3':[3, 33]}
 df_dict = pd.DataFrame(dict)
 print('딕셔너리로 만든 DataFrame:\n', df_dict)
