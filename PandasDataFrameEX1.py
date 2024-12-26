@@ -16,3 +16,4 @@ value_cnt = titanic_df['User_ID'].value_counts()
 # 값 개수 출력
 print(type(value_cnt))
 print(value_cnt)
+
