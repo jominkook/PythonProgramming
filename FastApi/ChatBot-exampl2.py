@@ -1,6 +1,6 @@
 # 예시 2: FastAPI + HTML 폼 챗봇
-from fastapi.responses import HTMLResponse
-
+from fastapi import FastAPI,HTMLResponse
+app = FastAPI()
 
 @app.get("/", response_class=HTMLResponse)
 async def form():
